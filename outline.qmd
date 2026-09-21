@@ -1,0 +1,85 @@
+---
+format:
+  pdf:
+    documentclass: article
+    classoption: titlepage
+    header-includes:
+      - \usepackage{pdfcomment}
+toc: true
+toc-depth: 5
+title: "title wip"
+---
+
+\newpage
+
+# Abstract
+
+Data Mesh is \pdfcomment{....}
+
+
+In light of contemporary sovereignty movement, this capability is important on several frotns - enabling secure, data-driven decision-making, and acting as a foundation layer for agentic capabilities. 
+
+However, xxx (case study/reference architecture) are missing from the literature. Due to composable
+
+This work focuses on implementation (reference implementation)? pov of Data Mesh and open source stack
+
+
+\newpage
+
+# Introduction
+
+## Data Mesh
+### Motivation and why it exists and good use cases
+### CITE(gray literature review components as evidence of evaluation list) Components of a data mesh - here or later?
+
+## Digital Sovereignty for Data & AI
+### Digital Sovereignty
+### Data & AI
+Federated Data ecosystems are important for government because they drive
+
+
+Improve decision making
+Help in Urban planning
+
+Collaboration between different bodies of government
+Also help improve efficiency of government funds by having interoperability for different research projects
+
+
+### Gaia-X
+#### CITE(evidence of relevancy): GAIA-X
+Demonstrates EUs commitment and acknowledgement of things that were mentioned before
+
+### Benefits of using open source
+
+
+\newpage
+# Methodology
+
+
+#### CITE: this is the criteria for narrowing down the stack
+
+\newpage
+# Available Open Source Applications for Data Mesh Components
+
+## Cite: Gray literature review for the list of components - the foundation for assessment
+
+
+\newpage
+# Case study: Canonical Data Mesh
+
+\newpage
+# Operational Challenges of the stack
+
+- point out the need for an operator framework
+- describe how Canonical manages the complexity
+
+Despite being horizontally scalable, the real overhead is amount of microservices. I am not able to provide true cost of diy operations, as Canonical uses juju and Charmed library for integration, which reduces day-to-day friction.
+
+## CITE: whitepapers about juju/operator framework
+## Measure: Canonical's reported operations load (new databases)
+## CITE: existing research (or gap) into "3rd dimension" of scalability - across microservices. how to measure the efficacy of an additional abstraction
+
+\newpage
+
+# Summary
+
